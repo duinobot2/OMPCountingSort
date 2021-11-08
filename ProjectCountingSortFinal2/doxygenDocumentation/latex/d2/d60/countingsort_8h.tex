@@ -1,0 +1,94 @@
+\hypertarget{countingsort_8h}{}\doxysection{include/countingsort.h File Reference}
+\label{countingsort_8h}\index{include/countingsort.h@{include/countingsort.h}}
+
+
+this \mbox{\hyperlink{countingsort_8h}{countingsort.\+h}} file contains the declaration of the counting sort function  
+
+
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for countingsort.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{d1/d45/countingsort_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{da/d3e/countingsort_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{countingsort_8h_a1049bdd2068c9b423d555aadedeb7d68}{STARTTIME}}(id)
+\item 
+\#define \mbox{\hyperlink{countingsort_8h_a947f627df742c175b26fdd92c0f819fb}{ENDTIME}}(id,  x)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{countingsort_8h_a1330c7195797d347e4268f53f0224741}{counting\+Sort}} (int $\ast$A, int n)
+\begin{DoxyCompactList}\small\item\em This function order the array A of dimension n. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this \mbox{\hyperlink{countingsort_8h}{countingsort.\+h}} file contains the declaration of the counting sort function 
+
+\begin{DoxyVersion}{Version}
+0.\+1
+\end{DoxyVersion}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2021 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{countingsort_8h_a947f627df742c175b26fdd92c0f819fb}\label{countingsort_8h_a947f627df742c175b26fdd92c0f819fb}} 
+\index{countingsort.h@{countingsort.h}!ENDTIME@{ENDTIME}}
+\index{ENDTIME@{ENDTIME}!countingsort.h@{countingsort.h}}
+\doxysubsubsection{\texorpdfstring{ENDTIME}{ENDTIME}}
+{\footnotesize\ttfamily \#define ENDTIME(\begin{DoxyParamCaption}\item[{}]{id,  }\item[{}]{x }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{    end\_time\_42\_\#\#\textcolor{keywordtype}{id} = clock(); \(\backslash\)}
+\DoxyCodeLine{    x = ((double)(end\_time\_42\_\#\#\textcolor{keywordtype}{id} -\/ start\_time\_42\_\#\#\textcolor{keywordtype}{id})) / CLOCKS\_PER\_SEC}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{countingsort_8h_a1049bdd2068c9b423d555aadedeb7d68}\label{countingsort_8h_a1049bdd2068c9b423d555aadedeb7d68}} 
+\index{countingsort.h@{countingsort.h}!STARTTIME@{STARTTIME}}
+\index{STARTTIME@{STARTTIME}!countingsort.h@{countingsort.h}}
+\doxysubsubsection{\texorpdfstring{STARTTIME}{STARTTIME}}
+{\footnotesize\ttfamily \#define STARTTIME(\begin{DoxyParamCaption}\item[{}]{id }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{    clock\_t start\_time\_42\_\#\#id, end\_time\_42\_\#\#id; \(\backslash\)}
+\DoxyCodeLine{    start\_time\_42\_\#\#\textcolor{keywordtype}{id} = clock()}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{countingsort_8h_a1330c7195797d347e4268f53f0224741}\label{countingsort_8h_a1330c7195797d347e4268f53f0224741}} 
+\index{countingsort.h@{countingsort.h}!countingSort@{countingSort}}
+\index{countingSort@{countingSort}!countingsort.h@{countingsort.h}}
+\doxysubsubsection{\texorpdfstring{countingSort()}{countingSort()}}
+{\footnotesize\ttfamily void counting\+Sort (\begin{DoxyParamCaption}\item[{int $\ast$}]{A,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+This function order the array A of dimension n. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em A} & array \\
+\hline
+{\em n} & dimension of array \\
+\hline
+\end{DoxyParams}

@@ -3,9 +3,9 @@ Lecturer:
  Francesco Moscato	fmoscato@unisa.it
 
 Group:
- Avella Antonello            a.avella19@studenti.unisa.it             
- D'Andrea Anna               a.dandrea26@studenti.unisa.it 
- De Pisapia Claudio          c.depisapia1@studenti.unisa.it
+* Avella Antonello            a.avella19@studenti.unisa.it             
+* D'Andrea Anna               a.dandrea26@studenti.unisa.it 
+* De Pisapia Claudio          c.depisapia1@studenti.unisa.it
  
 
 ## Dependencies
